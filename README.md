@@ -1,6 +1,10 @@
 # try-devcontainer
 Inspired by https://www.youtube.com/watch?v=SDa3v4Quj7Y
 
+For general information about development containers, see https://containers.dev/
+
+0/ Start your container framework localhost, if on Windows probably Docker Desktop
+
 1/ Create empty repo on GitHub
 
 2/ Install Remote Development extension pack (consists of WSL, Remote - SSH, Dev Containers, Remote - Tunnels) localhost - not in WSL
