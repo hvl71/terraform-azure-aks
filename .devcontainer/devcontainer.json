@@ -12,6 +12,13 @@
 		},
 		"ghcr.io/devcontainers/features/azure-cli:1": {}
 		}	
+	},
+
+	"containerEnv": {
+		"ARM_CLIENT_ID": "${localEnv:DEVCONTAINER_ARM_CLIENT_ID}",
+		"ARM_CLIENT_SECRET": "${localEnv:DEVCONTAINER_ARM_CLIENT_SECRET}",
+		"ARM_SUBSCRIPTION_ID": "${localEnv:DEVCONTAINER_ARM_SUBSCRIPTION_ID}",
+		"ARM_TENANT_ID": "${localEnv:DEVCONTAINER_ARM_TENANT_ID}"
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
