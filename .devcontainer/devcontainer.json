@@ -14,6 +14,8 @@
 		}	
 	},
 
+	// create personal DEVCONTAINER env vars on host, to relatively securely pass on to dev container
+	// <env-var-in-container>: <env-var-on-host>
 	"containerEnv": {
 		"ARM_CLIENT_ID": "${localEnv:DEVCONTAINER_ARM_CLIENT_ID}",
 		"ARM_CLIENT_SECRET": "${localEnv:DEVCONTAINER_ARM_CLIENT_SECRET}",
